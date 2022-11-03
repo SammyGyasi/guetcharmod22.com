@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
     --primary: #033da6;
-    --secondary: #545454;
+    --secondary: #1E1916;;
     --light: #FDF5EB;
-    --dark: #1E1916;
+    --dark: #545454;
 }
 
 h4,
@@ -168,6 +168,15 @@ h6,
         transition: .5s;
         opacity: 1;
     }
+}
+
+.bg-dark {
+    background-color: whitesmoke !important;
+}
+
+
+.bg-secondary {
+    background-color:#1E1916  !important;
 }
 
 
