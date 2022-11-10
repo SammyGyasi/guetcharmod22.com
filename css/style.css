@@ -137,18 +137,37 @@ h6,
 
 .navbar.fixed-top {
     transition: .5s;
+   
 }
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    transition: .5s;
+}
+
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(255, 255, 255, .3);
-        background: var(--dark);
+        background: white;
+      
     }
 
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
+        color: #033da6;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -171,7 +190,8 @@ h6,
 }
 
 .bg-dark {
-    background-color: whitesmoke !important;
+   background-color: white !important;
+    color: #000 !important;
 }
 
 
@@ -247,7 +267,7 @@ h6,
 
 .page-header {
     margin-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/img/1.jpg) center center no-repeat;
     background-size: cover;
 }
 
