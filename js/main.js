@@ -1,5 +1,5 @@
 (function ($) {
-  'use strict';
+  // 'use strict';
 
   // Spinner
   var spinner = function () {
@@ -20,7 +20,6 @@
     if ($(this).scrollTop()) {
       $('.fixed-top').addClass('bg-dark').css('top', 0);
       $('.navbar .navbar-nav .nav-link').css({ color: '#033DA6' }, 'top', 0);
-      $('.navbar .navbar-nav .nav-link:hover').css({ color: 'red' }, 'top', 0);
     } else {
       $('.fixed-top').removeClass('bg-dark').css('top', $('.top-bar').height());
       $('.navbar .navbar-nav .nav-link').css({ color: 'white' });
