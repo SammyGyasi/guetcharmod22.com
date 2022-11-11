@@ -60,6 +60,15 @@
     time: 2000,
   });
 
+  /*Typing Effect */
+
+  var typed = new Typed('.auto-typing1', {
+    strings: ['SAMUEL', 'K .GYASI'],
+    typeSpeed: 100,
+    backSpeed: 150,
+    loop: true,
+  });
+
   // Testimonials carousel
   $('.testimonial-carousel').owlCarousel({
     autoplay: false,
