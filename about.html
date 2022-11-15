@@ -7,7 +7,6 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Guétchar Consulting Group" name="keywords">
     <meta content="Guétchar Consulting Group" name="description">
-
     <!-- Favicon -->
     <link href="img/favicon.png" rel="icon">
 
@@ -15,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
@@ -25,16 +24,16 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styleup.css" rel="stylesheet">
 </head>
 
 <body>
-
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -44,34 +43,35 @@
 
 
     <!-- Topbar Start -->
-    <div class="container-fluid top-bar bg-secondary text-light px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 align-items-center d-none d-lg-flex">
-
-            <div class="col-lg-5 px-5 text-start">
-                <small>Suivez-nous:</small>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn-lg-square text-white border-end rounded-0" href=""><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn-lg-square text-white border-end rounded-0" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn-lg-square text-light pe-0" href=""><i class="fab fa-instagram"></i></a>
+    <div class="container-fluid bg-dark px-5">
+        <div class="row gx-4 d-none d-lg-flex">
+            <div class="col-lg-6 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-map-marker-alt text-white"></small>
+                    </div>
+                    <small>FES 30000, MAROC</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-envelope-open text-white"></small>
+                    </div>
+                    <small>guetchargroup@guetchar.com</small>
                 </div>
             </div>
-
-            <div class="col-lg-7 px-5 text-end">
+            <div class="col-lg-6 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="far fa-clock  me-1 text-white "></small>
-                    <small class="me-1">Lundi - Samedi : 06.00 - 00.00 |</small>
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="fa fa-phone-alt text-white"></small>
+                    </div>
+                    <small>+212
+                        660-523877</small>
                 </div>
-
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <a class="text-light text-decoration-none" href="tel:+212
-                    660-523877 "><i class="fa fa-phone-alt me-1"></i>+212
-                        660-523877 |</a>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="text-light text-decoration-none"
-                        href="mailto:guetchargroup@guetchar.com?subject =Demande d'info"><i
-                            class="far fa-envelope me-2"></i>guetchargroup@guetchar.com</a>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <div class="btn-sm-square rounded-circle bg-primary me-2">
+                        <small class="far fa-clock text-white"></small>
+                    </div>
+                    <small>Lundi - Samedi : 06.00 - 00.00 </small>
                 </div>
             </div>
         </div>
@@ -80,47 +80,43 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <img src="img/logo.png" alt="" width="100" height="100">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="/img/logo.png" alt="" width="120" height="120">
         </a>
-        <button type="button" class="navbar-toggler me-4 navbar-toggler-dark" data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon  navbar-toggler-icon-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6 text-white">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>
-
-            </span>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto p-4 p-lg-0">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Accueil</a>
                 <a href="about.html" class="nav-item nav-link">A propos</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+
                         <a href="team.html" class="dropdown-item">Notre Equipe</a>
-                        <a href="testimonial.html" class="dropdown-item">Temoignages</a>
+                        <a href="testimonial.html" class="dropdown-item">Témoignages</a>
+
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contactez-nous</a>
             </div>
-            <div class=" d-none d-lg-flex">
-                <div class="ps-3">
-                    <a href="" class="btn btn-primary py-3 px-lg-4 rounded-pill d-none d-lg-block">Prendre un RDV<i
-                            class="fa fa-arrow-right ms-3"></i></a>
-                </div>
+            <div class="h-100 d-lg-inline-flex align-items-center d-none">
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-twitter"></i></a>
+
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle  messagebtn "><i
-            class="bi bi-whatsapp"></i></a>
 
 
     <!-- Page Header Start -->
@@ -221,10 +217,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row img-twice position-relative h-100">
                         <div class="col-6">
-                            <img class="img-fluid rounded" src="img/about_poster.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/carousel-1.jpg" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid rounded" src="img/about_poster.jpg" alt="">
+                            <img class="img-fluid rounded" src="img/Banière Guétchar .svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -387,6 +383,11 @@
         </div>
     </div>
     <!-- Copyright End -->
+
+
+    <!-- Whatsapp Button -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle  messagebtn "><i
+            class="bi bi-whatsapp"></i></a>
 
 
 
