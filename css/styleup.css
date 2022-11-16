@@ -34,8 +34,8 @@
 .messagebtn {
     position: fixed;
     display: none;
-    left: 30px;
-    bottom: 30px;
+    left: 45px;
+    bottom: 45px;
     z-index: 99;
     background-color: #25D366;
     border: #FDF5EB;
